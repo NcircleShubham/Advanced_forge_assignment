@@ -1,0 +1,21 @@
+
+
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug Upload File in Chunks",
+            "type": "node",
+            "request": "launch",
+            "program": "${workspaceFolder}\\server.js",
+            "args": ["${workspaceFolder}/upload/skyscrapers.obj"],
+            "cwd": "${workspaceFolder}",
+            "outputCapture": "std",
+            "runtimeExecutable": "node",
+            "env": {
+                "NODE_ENV": "development"
+            }
+        }
+    ]
+}
+
